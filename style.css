@@ -1,22 +1,22 @@
 @font-face{
-    font-family: "CPX";
-    src: url(fonts/computer_pixel-7.ttf)
+    font-family: "CUBE";
+    src: url(fonts/CUBE.ttf)
 }
 #name {
-    font-family: "CPX";
+    font-family: "CUBE";
     color: antiquewhite;
     background: linear-gradient(to right, #4c50ff 0%, #6BFFDD 100%);
     font-size: xx-large;
 }
 #email {
-    font-family: "CPX";
+    font-family: "CUBE";
     color: #e8fa6e;
     background: linear-gradient(to right, #ff3631 0%, #4c50ff 100%);
     margin-top: -32px;
     font-size: xx-large;
 }
 #age {
-    font-family: "CPX";
+    font-family: "CUBE";
     color: #ae00fa;
     background: linear-gradient(to right, #fdff78 0%, #0bff97 100%);
     margin-top: -32px;
