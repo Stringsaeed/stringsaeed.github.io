@@ -1,22 +1,22 @@
 @font-face{
-    font-family: "mine";
-    src: url(fonts/Minecraft.ttf)
+    font-family: "CPX";
+    src: url(fonts/computer_pixel-7.ttf)
 }
 #name {
-    font-family: "mine";
+    font-family: "CPX";
     color: antiquewhite;
     background: linear-gradient(to right, #4c50ff 0%, #6BFFDD 100%);
     font-size: xx-large;
 }
 #email {
-    font-family: "mine";
+    font-family: "CPX";
     color: #e8fa6e;
     background: linear-gradient(to right, #ff3631 0%, #4c50ff 100%);
     margin-top: -32px;
     font-size: xx-large;
 }
 #age {
-    font-family: "mine";
+    font-family: "CPX";
     color: #ae00fa;
     background: linear-gradient(to right, #fdff78 0%, #0bff97 100%);
     margin-top: -32px;
