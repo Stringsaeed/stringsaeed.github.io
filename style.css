@@ -1,27 +1,19 @@
 @font-face{
-    font-family: "CUBE";
-    src: url(fonts/CUBE.ttf)
+    font-family: "coder";
+    src: url(fonts/CoderCrux.ttf)
 }
-#name {
-    font-family: "CUBE";
+#boddy {
+    font-family: "Ubuntu Mono";
     color: antiquewhite;
-    background: linear-gradient(to right, #4c50ff 0%, #6BFFDD 100%);
-    font-size: xx-large;
+    font-size: large;
 }
-#email {
-    font-family: "CUBE";
-    color: #e8fa6e;
-    background: linear-gradient(to right, #ff3631 0%, #4c50ff 100%);
-    margin-top: -32px;
-    font-size: xx-large;
-}
-#age {
-    font-family: "CUBE";
-    color: #ae00fa;
-    background: linear-gradient(to right, #fdff78 0%, #0bff97 100%);
-    margin-top: -32px;
-    font-size: xx-large;
+#if {
+    font-family: "Ubuntu Mono";
+    color: #fa2550;
+    font-size: large;
 }
 body{
-    background: linear-gradient(to right, #57acff 0%, #45ff00 100%);
+    background: linear-gradient(#fa2550, antiquewhite);
 }
+.indent-1 {float: left;}
+.indent-1 section {width: 50%; float: left;}
