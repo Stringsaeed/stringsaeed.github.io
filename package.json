@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://stringsaeed.github.io/",
+  "homepage": "http://stringsaeed.github.io/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

@@ -55,9 +55,6 @@ self.__precacheManifest = [
     "url": "/apple/splash/icon_750x1334.641afc06fa8aa7620d14945ccfde6b1f.png"
   },
   {
-    "url": "/apple/splash/icon_1125x2436.06c55e1a313994117d2cba90ada18f93.png"
-  },
-  {
     "revision": "5e695e96a003a79f7f97060bf49409a9",
     "url": "/expo-service-worker.js"
   },
@@ -66,7 +63,10 @@ self.__precacheManifest = [
     "url": "/expo-service-worker.js.gz"
   },
   {
-    "url": "/apple/splash/icon_2436x1125.1ef05e93d98cb8bbacbb68fad46ca706.png"
+    "url": "/apple/splash/icon_828x1792.ba07666ef195efbe64003e00035008b2.png"
+  },
+  {
+    "url": "/apple/splash/icon_1125x2436.06c55e1a313994117d2cba90ada18f93.png"
   },
   {
     "url": "/apple/splash/icon_1136x640.af0801f70e0d3be43842630bd67ab469.png"
@@ -78,7 +78,7 @@ self.__precacheManifest = [
     "url": "/apple/splash/icon_1334x750.95134c8d88093ed687dbd90654d7b3f8.png"
   },
   {
-    "url": "/apple/splash/icon_828x1792.ba07666ef195efbe64003e00035008b2.png"
+    "url": "/apple/splash/icon_2436x1125.1ef05e93d98cb8bbacbb68fad46ca706.png"
   },
   {
     "url": "/apple/splash/icon_1242x2208.ac026fc04b656d0f6152a9e6cdd29a83.png"
