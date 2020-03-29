@@ -2,7 +2,7 @@
   "name": "course_of_life",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stringsaeed.github.io",
+  "homepage": "https://stringsaeed.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
