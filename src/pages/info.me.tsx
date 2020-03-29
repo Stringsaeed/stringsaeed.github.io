@@ -5,7 +5,7 @@ import { ChevronRight } from "baseui/icon";
 import { ListItem, ListItemLabel } from "baseui/list";
 import { DisplayMedium, DisplayXSmall } from "baseui/typography";
 
-import { Page, Background } from "@components";
+import { Page, Background } from "../components";
 
 export const InfoMe = () => {
   return (
