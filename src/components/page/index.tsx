@@ -1,6 +1,6 @@
 import * as React from "react";
 import { FC } from "react";
-import './page.css';
+import "./page.css";
 
 type PageType = FC<{}>;
 

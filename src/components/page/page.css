@@ -5,4 +5,8 @@
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
+  border-right-style: dashed;
+  border-top: dashed;
+  border-bottom: dashed;
+  height: 100vh;
 }
