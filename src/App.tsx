@@ -1,6 +1,5 @@
 import React from "react";
-import { Box, Button } from "grommet";
-import { Github, Linkedin, Twitter } from "grommet-icons";
+import { Button } from "./components";
 import "./App.css";
 
 function App() {
@@ -14,51 +13,53 @@ function App() {
                 <h1>Mid Level Software Developer</h1>
                 <h3>23 years</h3>
                 <br />
-                <Box
-                    direction="row"
-                    gap="small"
-                    margin={{
-                        bottom: "medium",
-                    }}
-                >
-                    <Button
+                <div className="buttonGroup">
+                    <a
+                        style={{
+                            gridArea: "github",
+                        }}
+                        className="link"
                         href="https://www.github.com/stringsaeed"
-                        target="_blank"
-                        onClick={() =>
-                            window.open("https://www.github.com/stringsaeed")
-                        }
-                        hoverIndicator
-                        label="Github"
-                        icon={<Github />}
-                    />
-                    <Button
-                        onClick={() =>
-                            window.open("https://www.twitter.com/stringsaeed")
-                        }
-                        hoverIndicator
-                        icon={<Twitter />}
-                        label="Twitter"
-                    />
-                    <Button
-                        onClick={() =>
-                            window.open(
-                                "whatsapp://send?phone=+201118784615&abid=+201118784615&text=Hi"
-                            )
-                        }
-                        hoverIndicator
-                        label="Whatsapp"
-                    />
-                    <Button
-                        onClick={() =>
-                            window.open(
-                                "https://www.linkedin.com/in/mohamed-saeed-480a43b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsD4dLTMfTtG2QAfz%2BGyvVA%3D%3D"
-                            )
-                        }
-                        icon={<Linkedin />}
-                        hoverIndicator
-                        label="Linkedin"
-                    />
-                </Box>
+                    >
+                        <Button>Github</Button>
+                    </a>
+                    <a
+                        style={{
+                            gridArea: "twitter",
+                        }}
+                        className="link"
+                        href="https://www.twitter.com/stringsaeed"
+                    >
+                        <Button>Twitter</Button>
+                    </a>
+                    <a
+                        style={{
+                            gridArea: "whatsapp",
+                        }}
+                        className="link"
+                        href="whatsapp://send?phone=+201118784615&abid=+201118784615&text=Hi"
+                    >
+                        <Button>Whatsapp</Button>
+                    </a>
+                    <a
+                        style={{
+                            gridArea: "linked",
+                        }}
+                        className="link"
+                        href="https://www.linkedin.com/in/mohamed-saeed-480a43b6/"
+                    >
+                        <Button>Linkedin</Button>
+                    </a>
+                    <a
+                        style={{
+                            gridArea: "spotify",
+                        }}
+                        className="link"
+                        href="https://open.spotify.com/user/22fqgfawfcjnp7irxkt2ozefi?si=WoZAX1EaSuSqEBLAAO2Q3Q"
+                    >
+                        <Button>Spotify</Button>
+                    </a>
+                </div>
                 <br />
                 <ul>
                     <li>
@@ -66,7 +67,7 @@ function App() {
                             <span>
                                 Graduated from{" "}
                                 <span>
-                                    <a href="#">El Shoroq Academy</a>
+                                    <a href="/">El Shoroq Academy</a>
                                 </span>
                             </span>
                         </p>

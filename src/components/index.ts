@@ -1,4 +1,1 @@
-export { Page } from "./page";
-export { Image } from "./image";
-export { Background } from "./background";
-export { default as TabBar } from "./navBar";
+export { default as Button } from "./button";

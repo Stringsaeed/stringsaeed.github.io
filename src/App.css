@@ -1,15 +1,13 @@
 .AppContainer {
-    display: flex;
+    display: grid;
     background-color: #a6fde3;
-    flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
     text-align: center;
+    height: 100vh;
     font-family: Gelion, Roboto, SansSerif, serif;
 }
 
 .ContentContainer {
-    flex-direction: column;
     padding: 8rem;
 }
 
@@ -25,7 +23,7 @@
     width: 8rem;
     height: 8rem;
     border-radius: 8rem;
-    background-image: url("/me.png");
+    background-image: url("https://avatars2.githubusercontent.com/u/37156636?s=460&u=0fbc84dc98c2797a3b2ecac6b4f8663c3d1d1ae9&v=4");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,21 +35,29 @@
 }
 
 .buttonGroup {
-    display: flex;
+    display: grid;
+    grid-gap: 1.4rem;
+    grid-template-areas:
+        ". whatsapp ."
+        "github . twitter"
+        "linked . spotify";
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 10rem;
+}
+.link {
+    color: black;
+    justify-self: center;
+    text-decoration-line: blink;
 }
 
 ul {
     text-align: left;
 }
-ul il {
+ul li {
     text-align: left;
 }
 
-a {
+ul li a {
     font-family: GelionBold, serif;
     color: #5d8676;
 }
